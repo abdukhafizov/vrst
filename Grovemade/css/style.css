@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 30px 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #1D253C;
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 802px;
+    background-image: url("../img/promo_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 300px 0;
+}
+
+.promo_subtitle {
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 46px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.promo_title {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+}
+
+.promo a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.inspires {
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+}
+
+.Design_Inspires {
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 65px;
+}
+
+.promo_build {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.inspires a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-decoration: none;
+    color: black;
+}
+
+.laptops {
+    padding: 10px;
+    margin: 30px;
+}
+
+.laptops {
+    height: 450px;
+    padding: 38px 0;
+    width: 0px;
+}
+
+.skills_box {
+    margin-right: 20px;
+    width: 100px;
+    height: 441px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 30px;
+    text-align: center;
+}
+
+.skills_box p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.skills_box a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #000;
+}
+
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
+.boxtext {
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 36px;
+    margin-top: 310px;
+    margin-left: 475px;
+}
+
+.tex {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    margin-left: 10px;
+}
+
+.intensive_box{
+        display: flex;
+        margin-left: 140px;
+        margin-top: 30px;
+        margin-right: auto;
+}
+
+.elements {
+    display: flex;
+    gap: 25px;
+    padding: 20px 130px;
+    width: 100%;
+    max-width: 1920px;
+    color: #A0A0A0;
+    margin: 0 auto;
+    font-size: 13px;
+    align-items: center;
+    text-align: center;
+}
+
+.home {
+    height: 802px;
+    background-image: url("../img/Rectangle\ \(5\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 300px 0;
+    margin-top: 100px;
+}
+
+.home a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
